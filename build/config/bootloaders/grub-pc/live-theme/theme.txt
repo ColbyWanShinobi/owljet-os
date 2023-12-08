@@ -1,7 +1,7 @@
 desktop-image: "../splash.png"
 title-color: "#ffffff"
 title-font: "DejaVu Sans Bold 16"
-title-text: "Welcome to SpiralLinux"
+title-text: "Welcome to OwlJet OS"
 message-font: "Unifont Regular 16"
 terminal-font: "Unifont Regular 16"
 

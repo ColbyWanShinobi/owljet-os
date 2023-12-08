@@ -27,13 +27,13 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     vb.gui = false
 
     #This is the name of the VM as seen in the VirtualBox GUI
-    vb.name = "Local Wordpress (vagrant)"
+    vb.name = "Local OS Build"
 
     #This is the amount of RAM you want your virtual server to have
     #Note! The server will run with 1GB of ram but I was unable to compile the code with less than 2GB of RAM.
-    vb.memory = "8192"
+    vb.memory = "16384"
 
     #This is the number of CPUs you want your server to have
-    vb.cpus = "4"
+    vb.cpus = "8"
   end
 end

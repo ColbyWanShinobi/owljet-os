@@ -17,7 +17,7 @@ flatpak override --filesystem=xdg-config/fontconfig:ro
 #sed -i 's|load-module module-bluetooth-policy|load-module module-bluetooth-policy auto_switch=false|g' /etc/pulse/default.pa
 
 ### Automatically switch PulseAudio default audio output to newly connected Bluetooth devices
-#printf "\n####SpiralLinux tweak:####\nload-module module-switch-on-connect" >> /etc/pulse/default.pa
+#printf "\n####OwlJet OS tweak:####\nload-module module-switch-on-connect" >> /etc/pulse/default.pa
 
 ### Install https://github.com/Antynea/grub-btrfs
 cd /usr/share/grub-btrfs
@@ -29,8 +29,8 @@ systemctl enable grub-btrfsd
 printf "\nGRUB_DISABLE_OS_PROBER=false\n" >> /etc/default/grub
 
 ### Change "Install Debian" desktop file
-sed -i 's|Install Debian|Install SpiralLinux|g' /usr/share/applications/install-debian.desktop
-sed -i 's|Debian Live|SpiralLinux|g' /usr/share/applications/install-debian.desktop
+sed -i 's|Install Debian|Install OwlJet OS|g' /usr/share/applications/install-debian.desktop
+sed -i 's|Debian Live|OwlJet OS|g' /usr/share/applications/install-debian.desktop
 
 ### Disable Wayland by default
 sed -i 's|#WaylandEnable=false|WaylandEnable=false|g' /etc/gdm3/daemon.conf

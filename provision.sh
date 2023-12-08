@@ -19,6 +19,8 @@ cd ~/build
 
 ./spiral -i
 
+cp -v *.iso /vagrant
+
 #echo "Upgrading the base packages..."
 #apt-get upgrade -y
 

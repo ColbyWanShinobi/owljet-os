@@ -7,18 +7,18 @@ windowSize: 800px,520px
 windowPlacement: center
 
 strings:
-    productName:         SpiralLinux Gnome
-    shortProductName:    SpiralLinux
-    version:             12.231120
+    productName:         OwlJet OS
+    shortProductName:    OwlJet
+    version:             12.231207
     shortVersion:        12
-    versionedName:       SpiralLinux 12.231120 Gnome
-    shortVersionedName:  SpiralLinux 12 Gnome
-    bootloaderEntryName: Debian (SpiralLinux Gnome)
-    productUrl:          https://spirallinux.github.io
-    supportUrl:          https://github.com/SpiralLinux/SpiralLinux-project/discussions
-    knownIssuesUrl:      https://github.com/SpiralLinux/SpiralLinux-project/issues
-    releaseNotesUrl:     https://github.com/SpiralLinux/SpiralLinux-project/releases
-    donateUrl:           https://spirallinux.github.io
+    versionedName:       OwlJet OS 12.231207
+    shortVersionedName:  OwlJet OS 12
+    bootloaderEntryName: Debian (OwlJet OS)
+    productUrl:          https://github.com/ColbyWanShinobi/owljet-os
+    supportUrl:          https://github.com/ColbyWanShinobi/owljet-os
+    knownIssuesUrl:      https://github.com/ColbyWanShinobi/owljet-os
+    releaseNotesUrl:     https://github.com/ColbyWanShinobi/owljet-os
+    donateUrl:           https://github.com/ColbyWanShinobi/owljet-os
 
 images:
     productLogo:         "SpiralLinux-logo.png"
