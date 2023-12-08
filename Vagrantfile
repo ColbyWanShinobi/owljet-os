@@ -34,6 +34,6 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     vb.memory = "16384"
 
     #This is the number of CPUs you want your server to have
-    vb.cpus = "8"
+    vb.cpus = "4"
   end
 end
